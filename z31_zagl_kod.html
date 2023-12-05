@@ -1,0 +1,51 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij()
+ {
+ window.close()
+ }
+ </script>
+</head>
+<body>
+ <form>
+ <textarea name="zadanie" cols="80" rows="20" readonly>
+<html>
+<head>
+<script type="text/javascript">
+
+var wiezowiec_wyswietl_zagloba = {
+nazwa: 'World Trade Center 1 ( WTC1 )',
+wysokosc: '417m ( 526,3m z anteną )',
+architekt: 'Minoru Yamasaki',
+pietra: '110 pięter',
+otwarcie: '4 kwietnia 1973',
+pokaz: function ()
+{
+document.write("<center>" + this.nazwa + ' /// ' + this.wysokosc + ' /// ' + this.architekt + ' /// ' + this.pietra + ' /// ' + this.otwarcie + "</center>")
+}
+}
+
+wiezowiec_wyswietl_zagloba.pokaz();
+wiezowiec_wyswietl_zagloba.tragedia='11 września 2001 ';
+wiezowiec_wyswietl_zagloba.wypisz=function() {alert('Tragedia: ' + this.tragedia + 'r.')}
+wiezowiec_wyswietl_zagloba.wypisz();
+</script>
+</head>
+<body style="background: linear-gradient(to bottom, cyan 0%, blue 50%, darkblue 100%);">
+<br><center>
+programowanie obiektowe
+</body>
+</html>
+ </textarea>
+</form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_siejka()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>
+
+
+
+
+
