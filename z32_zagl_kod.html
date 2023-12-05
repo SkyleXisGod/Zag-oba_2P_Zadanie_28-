@@ -1,0 +1,52 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij()
+ {
+ window.close()
+ }
+ </script>
+</head>
+<body>
+ <form>
+ <textarea name="zadanie" cols="80" rows="20" readonly>
+<html>
+<head>
+<script type="text/javascript">
+function wieza(nazwa_z,wysokosc_z,architekt_z,pietra_z,otwarcie_z) 
+{
+this.nazwa=nazwa_z;
+this.wysokosc=wysokosc_z;
+this.architekt=architekt_z;
+this.pietra=pietra_z;
+this.otwarcie=otwarcie_z;
+}
+wieza.prototype.wypisz = function ()
+{
+alert(this.nazwa + ' /// ' + this.wysokosc + ' /// ' + this.architekt + ' /// ' + this.pietra + ' /// ' + this.otwarcie);
+};
+
+var wieza1 = new wieza("WTC1", "417m", "Minoru Yamasaki", "110 pięter","4 kwietnia 1973"); 
+var wieza2 = new wieza('WTC2', '415m', 'Minoru Yamasaki', '110 pięter','4 kwietnia 1973');
+wieza1.wypisz(); 
+wieza2.wypisz();document.write("<center> Dostęp do właściwości:"+"<br>");
+document.write("<center> Wieża pierwsza"+" "+wieza1.nazwa+" "+wieza1.wysokosc+" "+wieza1.architekt+" "+wieza1.pietra+" "+wieza1.otwarcie);
+</script>
+</head>
+<body style="background: linear-gradient(to bottom, cyan 0%, blue 50%, darkblue 100%);">
+<br>
+Zagłoba Kacper 2P
+</body>
+</html>
+ </textarea>
+</form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_siejka()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>
+
+
+
+
+
