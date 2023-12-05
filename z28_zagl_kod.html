@@ -1,0 +1,56 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij()
+ {
+ window.close()
+ }
+ </script>
+</head>
+<body>
+ <form>
+ <textarea name="zadanie12" cols="80" rows="20" readonly>
+    <!DOCTYPE html> 
+    <head> 
+    <title> proste obliczenia</title> 
+    <meta charset="utf-8"> 
+    </head> 
+   <body>
+   <div style="color:green;font-size:45px;">
+    <script language="JavaScript">
+   var liczba1=prompt("liczba1=","");
+   var liczba2=prompt("liczba2=","");
+   var liczba3=prompt("liczba3=","");
+   var liczba4=prompt("liczba4=","");
+   var wynik;
+   
+   
+    var D1_zag=parseFloat(liczba1);
+    var D2_zag=parseFloat(liczba2);
+	var G1_zag=parseFloat(liczba1);
+    var G2_zag=parseFloat(liczba2);
+	
+	G1_zag = G1_kus * 3600;
+    D1_zag = ( D1_zag - 1 ) * 86400;
+	D1_zag = D1_zag + G1_zag;
+	
+	G2_zag = G2_kus * 3600;
+    D2_zag = ( D2_zag - 1 ) * 86400;
+	D2_zag = D2_zag + G2_zag;
+	
+    wynik = D1_zag - D2_zag;
+    document.write("D1 " + D1_zag + "<br>");
+    document.write("D2 " + D2_zag + "<br>");
+	document.write("G1 " + G1_zag + "<br>");
+    document.write("G2 " + G2_zag + "<br>");
+    document.write("Ilość sekund=" + wynik + "<br>");
+    </script>
+   </div>
+   </body>
+ </textarea>
+</form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_siejka()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>
