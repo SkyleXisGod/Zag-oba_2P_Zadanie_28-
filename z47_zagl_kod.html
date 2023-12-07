@@ -1,0 +1,48 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij()
+ {
+ window.close()
+ }
+ </script>
+</head>
+<body>
+ <form>
+ <textarea name="zadanie12" cols="80" rows="20" readonly>
+<!DOCTYPE html>
+<head>
+<title>Sprawdzenie danych Zagłoba </title>
+<meta charset="utf-8">
+</head>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+do{
+do{
+var liczba1=prompt("Bok A=","");
+var a_zag=parseFloat(liczba1);
+}while(a_zag<=0);
+do{
+var liczba2=prompt("Bok B=","");
+var b_zag=parseFloat(liczba2);
+}while(b_zag<=0);
+do{
+var liczba3=prompt("Bok C=","");
+var c_zag=parseFloat(liczba3);
+}while(c_zag<=0);
+}while(a_zag+b_zag<c_zag || a_zag+c_zag<b_zag || b_zag+c_zag<a_zag)
+
+
+document.write(a_zag + " + " + b_zag + " + " + c_zag + " tworzą trójkąt :)"+"<br>");
+</script>
+</div>
+</body>
+</html>
+ </textarea>
+</form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_siejka()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>
