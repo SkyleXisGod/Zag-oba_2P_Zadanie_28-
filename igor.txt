@@ -1,0 +1,9 @@
+Czytać 3 liczby w okienka formularza a, b, c. Są to współczynniki funkcji kwadratowej.
+Gdy a=0, komunikat "To nie jest funkcja kwadratowa", komputer nic nie oblicza.
+Oblicz wierzchołek, podaj funkcję kwadratową w postaci kanonicznej.
+Oblicz x1,x2 lub x0 lub napisz brak miejsc zerowych.
+Podaj jeśli jest to możliwe funkcję kwadratową w postaci iloczynowej.
+Podaj przedziały gdzie funkcja rośnie gdzie maleje.
+Wszystkie zmienne z trzema literami pierwszymi nazwiska, unikaj zapisow +-
+Wypisuj czcionka 2 cm, kolorem zielonym.
+Na ocene 6: narysuj uklad wspolrzednych i wykres funkcji, zaznacz na osiach jednostki.(wskazówka do oceny cel --> użyj  element canvans, instrukcja JS strona 132 )
