@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta cahrset="utf-8">
+    </head>
+    <body>
+        <div>    
+        <script language="JavaScript"> 
+            
+             document.write("<h2 style='color: green;'> MENU </h2> "+"<br>");
+             document.write("<h3 style='color: red;'> 1 - czerwony  </h2>"+"<br>");
+             document.write("<h3 style='color: blue;'> 2 - niebieski </h2>"+"<br>");
+             
+                document.write('<input type="button" value="Sprawdź" onclick="fun_zag()"/>'+'<br>');
+
+             function fun_zag() 
+             {
+                var x_zag = prompt("Podaj kolor", "");
+                if(x_zag == 1 || x_zag.toLowerCase() == "czerwony") 
+                {
+                document.write('<h3 style="color: red;"> wczytałeś kolor czerwony   </h1><br/>'); 
+                }
+                else if(x_zag == 2 || x_zag.toLowerCase() == "niebieski") 
+                {
+                document.write('<h3 style="color: blue;"> wczytałeś kolor niebieski </h6><br/>');
+                }
+             }
+             
+
+</script>
+         </script>
+         </div>
+    </body>
+ </html>
